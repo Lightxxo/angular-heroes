@@ -1,6 +1,8 @@
 import {Component} from '@angular/core';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @Component({
+  imports: [HeroesComponent],
   standalone: true,
   selector: 'app-root',
   templateUrl: './app.component.html',
