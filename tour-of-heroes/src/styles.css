@@ -37,6 +37,32 @@ h1 {
     color: #aaa;
     cursor: auto;
   }
+
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 0.5rem;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    background-color: #cfd8dc;
+  }
+  
+  a:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+    pointer-events: none; /* Disables interaction */
+  }
+  
   
   /* everywhere else */
   * {
